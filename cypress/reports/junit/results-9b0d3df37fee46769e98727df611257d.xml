@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="16.500" tests="6" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-10-27T12:51:19" tests="0" file="cypress\e2e\login.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Login to inventory page" timestamp="2023-10-27T12:51:19" tests="6" time="16.418" failures="1">
+    <testcase name="Login to inventory page Login to inventory page (example #1)" time="1.157" classname="Login to inventory page (example #1)">
+    </testcase>
+    <testcase name="Login to inventory page Login to inventory page (example #2)" time="0.000" classname="Login to inventory page (example #2)">
+      <failure message="Timed out retrying after 6000ms: expected &apos;https://www.saucedemo.com/&apos; to include &apos;/inventory&apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'https://www.saucedemo.com/' to include '/inventory'
+    at InventoryPage.urlIsCorrect (cypress/utils/views/inventoryPage.ts:40:13)
+    at Context.eval (cypress/support/step_definitions/inventory.step.ts:7:12)
+    at Registry.runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/lib/registry.js:119:0)
+    at Object.fn (node_modules/@badeball/cypress-cucumber-preprocessor/lib/create-tests.js:305:0)
+    at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/lib/cypress.js:11:0)
+    at Context.eval (node_modules/@badeball/cypress-cucumber-preprocessor/lib/create-tests.js:302:0)]]></failure>
+    </testcase>
+    <testcase name="Login to inventory page Login to inventory page (example #3)" time="0.788" classname="Login to inventory page (example #3)">
+    </testcase>
+    <testcase name="Login to inventory page Login to inventory page (example #4)" time="5.894" classname="Login to inventory page (example #4)">
+    </testcase>
+    <testcase name="Login to inventory page Login to inventory page (example #5)" time="0.750" classname="Login to inventory page (example #5)">
+    </testcase>
+    <testcase name="Login to inventory page Login to inventory page (example #6)" time="0.763" classname="Login to inventory page (example #6)">
+    </testcase>
+  </testsuite>
+</testsuites>

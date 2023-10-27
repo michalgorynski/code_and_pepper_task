@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<testsuites failures="1" errors="0" tests="13" skipped="0">
+  <testsuite name="Root Suite" timestamp="2023-10-27T12:51:45" tests="0" file="cypress\e2e\openItemDetails.feature" time="0.000" failures="0"/>
+  <testsuite name="Open item details page" timestamp="2023-10-27T12:51:45" tests="1" time="1.639" failures="0">
+    <testcase name="Open item details page Open item details page" time="1.612" classname="Open item details page"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-10-27T12:52:09" tests="0" file="cypress\e2e\sortItems.feature" time="0.000" failures="0"/>
+  <testsuite name="Sort items" timestamp="2023-10-27T12:52:09" tests="4" time="4.274" failures="0">
+    <testcase name="Sort items Sort items by name 'ascending' (example #1)" time="1.463" classname="Sort items by name 'ascending' (example #1)"/>
+    <testcase name="Sort items Sort items by name 'descending' (example #2)" time="0.966" classname="Sort items by name 'descending' (example #2)"/>
+    <testcase name="Sort items Sort items by price 'ascending' (example #1)" time="0.928" classname="Sort items by price 'ascending' (example #1)"/>
+    <testcase name="Sort items Sort items by price 'descending' (example #2)" time="0.923" classname="Sort items by price 'descending' (example #2)"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-10-27T12:51:19" tests="0" file="cypress\e2e\login.feature" time="0.000" failures="0"/>
+  <testsuite name="Login to inventory page" timestamp="2023-10-27T12:51:19" tests="6" time="16.418" failures="1">
+    <testcase name="Login to inventory page Login to inventory page (example #1)" time="1.157" classname="Login to inventory page (example #1)"/>
+    <testcase name="Login to inventory page Login to inventory page (example #2)" time="0.000" classname="Login to inventory page (example #2)">
+      <failure message="Timed out retrying after 6000ms: expected 'https://www.saucedemo.com/' to include '/inventory'" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 6000ms: expected 'https://www.saucedemo.com/' to include '/inventory'
+    at InventoryPage.urlIsCorrect (cypress/utils/views/inventoryPage.ts:40:13)
+    at Context.eval (cypress/support/step_definitions/inventory.step.ts:7:12)
+    at Registry.runStepDefininition (node_modules/@badeball/cypress-cucumber-preprocessor/lib/registry.js:119:0)
+    at Object.fn (node_modules/@badeball/cypress-cucumber-preprocessor/lib/create-tests.js:305:0)
+    at runStepWithLogGroup (node_modules/@badeball/cypress-cucumber-preprocessor/lib/cypress.js:11:0)
+    at Context.eval (node_modules/@badeball/cypress-cucumber-preprocessor/lib/create-tests.js:302:0)]]></failure>
+    </testcase>
+    <testcase name="Login to inventory page Login to inventory page (example #3)" time="0.788" classname="Login to inventory page (example #3)"/>
+    <testcase name="Login to inventory page Login to inventory page (example #4)" time="5.894" classname="Login to inventory page (example #4)"/>
+    <testcase name="Login to inventory page Login to inventory page (example #5)" time="0.750" classname="Login to inventory page (example #5)"/>
+    <testcase name="Login to inventory page Login to inventory page (example #6)" time="0.763" classname="Login to inventory page (example #6)"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-10-27T12:51:57" tests="0" file="cypress\e2e\orderItem.feature" time="0.000" failures="0"/>
+  <testsuite name="Place an order for any item" timestamp="2023-10-27T12:51:57" tests="1" time="2.493" failures="0">
+    <testcase name="Place an order for any item Place an order for any item" time="2.468" classname="Place an order for any item"/>
+  </testsuite>
+  <testsuite name="Root Suite" timestamp="2023-10-27T12:51:02" tests="0" file="cypress\e2e\addAndRemoveItem.feature" time="0.000" failures="0"/>
+  <testsuite name="Add any item to cart and remove it" timestamp="2023-10-27T12:51:02" tests="1" time="4.249" failures="0">
+    <testcase name="Add any item to cart and remove it Add any item to cart and remove it" time="4.216" classname="Add any item to cart and remove it"/>
+  </testsuite>
+</testsuites>

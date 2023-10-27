@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "extends": [
+    "../.eslintrc.js",
+    "plugin:cypress/recommended",
+    "plugin:import/warnings",
+    "plugin:import/errors"
+  ],
+  "plugins": ["cypress"],
+  "env": {
+    "cypress/globals": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module",
+    "parser": "@babel/eslint-parser"
+  },
+  "rules": {
+    "cypress/no-assigning-return-values": "warn",
+    "cypress/no-unnecessary-waiting": "warn",
+    "cypress/assertion-before-screenshot": "warn",
+    "cypress/no-force": "warn",
+    "cypress/no-async-tests": "warn"
+  }
+}
