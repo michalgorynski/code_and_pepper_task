@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="4.303" tests="1" failures="0">
-  <testsuite name="Root Suite" timestamp="2023-10-27T12:51:02" tests="0" file="cypress\e2e\addAndRemoveItem.feature" time="0.000" failures="0">
-  </testsuite>
-  <testsuite name="Add any item to cart and remove it" timestamp="2023-10-27T12:51:02" tests="1" time="4.249" failures="0">
-    <testcase name="Add any item to cart and remove it Add any item to cart and remove it" time="4.216" classname="Add any item to cart and remove it">
-    </testcase>
-  </testsuite>
-</testsuites>
